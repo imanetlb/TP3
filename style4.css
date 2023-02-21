@@ -1,0 +1,84 @@
+table.tab{
+   width: 95%;
+   border-top: solid;
+   border-top-color: red;
+   border-right: solid;
+   border-left: solid;
+   border-bottom: double;
+   border-bottom-color: blue;
+   margin-left: 25px;
+   margin-right: 25px;
+}
+tr.entete{
+   color: white;
+   line-height: 64px;
+   background-color: rgb(107, 47, 17);
+   font-weight: bold;
+   font-size: 48px;
+   text-transform: capitalize;
+   text-align: center;
+}
+
+
+tr.corps{
+   background-color: rgb(31, 183, 11);
+}
+
+
+
+td.impaire_col1{
+   border: dashed;
+   border-color: blue;
+   text-transform: uppercase;
+   text-align: right;
+   font-size: 32px; 
+   word-spacing: 32px;
+   font-style: italic;
+   text-decoration: underline;
+   font-weight: bold;
+}
+   
+
+
+td.col3_ligne_Impaire{
+   font-weight: bold;
+   border: dashed;
+   border-color: blue;
+   font-size: 32px; 
+   word-spacing: 32px;
+   text-align: right;
+   font-style: italic;
+   text-decoration: underline;
+}
+
+
+td.col2_ligne_Impaire{
+   font-weight: bold;
+   border: solid;
+   border-color: red;
+   font-size: 32px; 
+   word-spacing: 32px;
+   text-align: right;
+   font-style: italic;
+   text-decoration: underline;
+}
+
+
+td.col1_lignePaire{
+   border: dashed;
+   border-color: blue;
+   text-transform: uppercase;
+   text-align: right;
+}
+
+
+td.ligne_paire_col3{
+   border: dashed;
+   border-color: blue;
+}
+
+
+td.ligne_paire_col2{
+   border: solid;
+   border-color: red;
+}

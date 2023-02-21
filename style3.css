@@ -1,0 +1,7 @@
+ol.roman{
+  list-style-type: upper-roman;
+}
+
+ol.latin{
+  list-style-type: upper-latin;
+}

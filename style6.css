@@ -1,0 +1,54 @@
+fieldset{
+	border: 3px solid red;
+	border-radius: 10px;
+	background-color:white;
+}
+fieldset > legend {
+	background-color:grey;
+	color:white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight:bold;
+	font-size: 18px;
+	margin: 20px;
+}
+body{
+	background-color:lightgrey;
+}
+
+div.div1,div.div2{
+	display:inline-block;
+	padding: 10px;
+}
+
+div.div1{
+	font-family:arial;
+	font-size: 13px;
+	position:absolute;
+	padding:1.2%;
+}
+
+div.div2{
+	position:relative;
+	margin-left:10%;
+}
+
+input.champ{
+	border-radius:5px;
+	border-width: thin;
+	padding: 10px 10px;
+}
+
+input[type="submit"]{
+	color:white;
+	font-family:arial;
+	background-color:orange;
+	text-align:center;
+	border: none;
+	padding: 10px 100%;
+	border-radius: 5px;
+}
+input[type="submit"]:hover{
+	cursor: pointer;
+}
+
